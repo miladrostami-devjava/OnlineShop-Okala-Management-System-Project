@@ -1,0 +1,14 @@
+package com.okala.onlineshop.orderstatus;
+
+import com.okala.onlineshop.order.Order;
+
+public class OrderStatus {
+
+    public static void reportStatus(Order order){
+        String status ;
+
+        
+
+    }
+
+}

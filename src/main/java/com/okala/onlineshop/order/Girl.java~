@@ -1,0 +1,84 @@
+package com.okala.onlineshop.order;
+
+import java.util.Date;
+
+public class Girl {
+
+    private int height ;
+    private int weight;
+    private int age;
+    private String grade;
+    private Date birthDate ;
+    private String birthCity;
+
+
+    public Girl(int height, int weight, int age, String grade, Date birthDate, String birthCity) {
+        this.height = height;
+        this.weight = weight;
+        this.age = age;
+        this.grade = grade;
+        this.birthDate = birthDate;
+        this.birthCity = birthCity;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getBirthCity() {
+        return birthCity;
+    }
+
+    public void setBirthCity(String birthCity) {
+        this.birthCity = birthCity;
+    }
+
+
+/*    @Override
+    public String toString() {
+        return "Girl{" +
+                "height=" + height +
+                ", weight=" + weight +
+                ", age=" + age +
+                ", grade='" + grade + '\'' +
+                ", birthDate=" + birthDate +
+                ", birthCity='" + birthCity + '\'' +
+                '}';
+    }*/
+}
